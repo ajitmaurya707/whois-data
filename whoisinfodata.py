@@ -2,7 +2,7 @@ import whois
 import webbrowser as wb
 from json2html import *
 
-w = whois.whois('https://intellymail.com')
+w = whois.whois('https://www.google.com')
 d = json2html.convert(json = w)
 
 f = open("index.html","w")
